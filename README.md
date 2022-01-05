@@ -1,3 +1,7 @@
+# This is a fork attempting to add support for RKWard
+
+The code was written for linux running on Wayland (tested on Ubuntu 22.04 running on Sway).
+
 # SendCode for Sublime Text
 
 <a href="https://packagecontrol.io/packages/SendCode"><img src="https://packagecontrol.herokuapp.com/downloads/SendCode.svg"></a>
@@ -25,11 +29,18 @@ You could install SendCode via Package Control.
 - In the Install Package window start typing `SendCode` and select the option when it pops up.
 - SendCode should then be installed.
 
-If you are using Linux, we might need to install
+If you are using Linux on Xorg, we might need to install
 [xdotool](http://www.semicomplete.com/projects/xdotool/) to use some features. Ubuntu users can use
 ```
 sudo apt-get install xdotool
 ```
+If you are using Linux on Wayland, we might need to install
+ydotool as a replacement for xdotool. Ubuntu users can use
+```
+sudo apt-get install ydotool
+```
+
+
 If it cannot be found, you will be prompted
 to download a [binary distribution](https://github.com/randy3k/sublime-xdotool).
 
