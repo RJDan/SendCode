@@ -35,7 +35,7 @@ class SendCodeChooseProgCommand(sublime_plugin.TextCommand):
         elif plat == "linux":
             app_list = ["tmux", "screen", "linux-terminal"]
             if syntax == "r" or syntax == "rmd" or syntax == "rnw":
-                app_list = app_list + ["RStudio Desktop"]
+                app_list = app_list + ["RStudio Desktop","RKWard"]
         else:
             sublime.error_message("Platform not supported!")
 
