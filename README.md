@@ -1,5 +1,7 @@
 # This is a fork attempting to add support for RKWard
 
+!! Does not work yet !!
+
 The code was written for linux running on Wayland (tested on Ubuntu 22.04 running on Sway).
 
 # SendCode for Sublime Text
